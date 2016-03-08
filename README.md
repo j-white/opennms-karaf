@@ -1,10 +1,10 @@
-== Preface ==
+## Preface
 
 This repository contains a custom distribute of Karaf that allows you to
 add Maven repositories, Karaf feature repositories and features to boot
 with .d style folders.
 
-== Demo ==
+## Demo 
 
 mvn clean install
 pushd karaf/target/
@@ -21,7 +21,7 @@ echo 'newts-api' > karaf-container-1.0.0-SNAPSHOT/etc/featuresboot.d/newts.boot
 
 ...wait...
 
-== Building Packages ==
+## Building Packages
 
 pusdh karaf/target
 rm -f opennms-karaf-1.0-1.x86_64.rpm && rm -rf opt/minion
